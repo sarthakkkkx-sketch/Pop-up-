@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Ultimate Stress Relief</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menu">
+        <h1 class="glow">Ultimate<br>Stress<br>Relief</h1>
+        <p>Relax • Pop • Enjoy</p>
+        <button id="startBtn">Start Game</button>
+        <div class="high-score">High Score: <span id="highScore">0</span></div>
+        <button id="soundBtn" class="icon-btn">🔊</button>
+    </div>
+
+    <div id="game" style="display: none;">
+        <div class="topbar">
+            <div class="stats">
+                <span id="score">Score: 0</span>
+                <span id="combo" class="combo"></span>
+            </div>
+            <span id="timer">Time: 60</span>
+            <button id="menuBtn">Menu</button>
+        </div>
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+      </html>
